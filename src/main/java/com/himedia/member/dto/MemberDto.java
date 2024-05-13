@@ -6,18 +6,6 @@ public class MemberDto {
 	private String name;
 	private String phone;
 	
-	
-	
-	public MemberDto() {
-	}
-	
-	public MemberDto(String id, String pwd, String name, String phone) {
-		super();
-		this.id = id;
-		this.pwd = pwd;
-		this.name = name;
-		this.phone = phone;
-	}
 	public String getId() {
 		return id;
 	}
@@ -42,11 +30,6 @@ public class MemberDto {
 	public void setPhone(String phone) {
 		this.phone = phone;
 	}
-	@Override
-	public String toString() {
-		return "MemberDto [id=" + id + ", pwd=" + pwd + ", name=" + name + ", phone=" + phone + "]";
-	}
-	
 	
 	
 }
